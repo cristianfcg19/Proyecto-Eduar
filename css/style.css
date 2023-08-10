@@ -1,0 +1,142 @@
+/* Estilos para el fondo de imagen */
+
+.navbar {
+    background-color: #FFFFFF;
+}
+.hero {
+    background-image: url('../img/empty-highway-surrounded-by-hills-cloudy-sunset-sky.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero h1
+{
+    color:#0D6EFD;
+}
+/* Estilos para el contenido del héroe */
+.hero-content {
+    padding: 20px;
+}
+
+/* Estilos para el botón */
+.btn {
+    margin-top: 15px;
+}
+
+/* Estilos para el fondo del navbar */
+.navbar {
+    background-color: #FFFFFF;
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: black; /* Color de texto para enlaces */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+/* Estilos para el hover de los enlaces */
+.navbar-nav .nav-link:hover {
+    background-color: #0D6EFD; /* Color de fondo en hover */
+    color: white; /* Color de texto en hover */
+}
+
+/* Estilos para el div sub-hero */
+.sub-hero {
+    background-color: black; /* Color de fondo */
+    padding: 150px 0; /* Espaciado interno */
+}
+
+/* Estilos para el contenido del sub-hero */
+.sub-hero-content {
+    text-align: center; /* Centrar el contenido */
+    max-width: 800px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    padding: 0 20px; /* Espaciado interno */
+    color: #FFFFFF; /* Color del texto */
+}
+
+.sub-hero-content h2 {
+    font-size: 28px; 
+    margin-bottom: 10px; 
+}
+
+.sub-hero-content p {
+    font-size: 18px;
+    line-height: 1.5; 
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.left {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.center {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.right {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.sub-hero-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color:whitesmoke;
+    padding: 20px;
+}
+
+.left-2,
+.right-2 {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 20px;
+}
+
+.left-center-2,
+.right-center-2 {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.center-2 {
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+ .sub-hero-2 img
+{
+
+    border-radius: 50%;    
+}
+
+
