@@ -5,6 +5,8 @@
 }
 .hero {
 
+    display: flex;
+    align-content: center;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -13,7 +15,9 @@
     justify-content: center;
     color: white;
     text-align: center;
+    background-color: whitesmoke;
 }
+
 .hero h1
 {
     color:#0D6EFD;
@@ -21,6 +25,15 @@
 /* Estilos para el contenido del héroe */
 .hero-content {
     padding: 20px;
+}
+
+.sub-container1{
+
+    width: 40%;
+}
+.sub-container2{
+
+    width: 60%;
 }
 
 /* Estilos para el botón */
