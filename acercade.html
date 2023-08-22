@@ -86,41 +86,47 @@
 
        <div class="hero">
         <div class="sub-container5">
-            <h2 style="text-align: center; font-size: 30px; color: black;">Intersección bomba el Higuerón</h2>
+            <h2 style="text-align: center; font-size: 30px; color: black;">Intersección Parque Jonh F Kennedy</h2>
             
         </div>
    
         <div class="sub-container6">
-            <img src="/img/12.jpg" width="600" height="300">
+            <img src="/img/55.jpg" width="600" height="300">
         </div>
            
        </div>
-    <div id="render-container"></div>
+
+       <div class="hero">
+        <div class="sub-container7">
+
+            <img src="/img/12.jpg" width="600" height="300">
+            
+            
+        </div>
+   
+        <div class="sub-container8">
+            <h2 style="text-align: center; font-size: 30px; color: black;">Intersección bomba el Higuerón</h2>
+        </div>
+           
+
+    </div>
 
 
-    <script>
-        const container = document.getElementById('render-container');
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
-        const renderer = new THREE.WebGLRenderer();
-        
-        renderer.setSize(container.clientWidth, container.clientHeight);
-        container.appendChild(renderer.domElement);
-        
-        const loader = new THREE.GLTFLoader();
-        loader.load('../source/export_shark_animation.glb', (gltf) => {
-            scene.add(gltf.scene);
-        });
-        
-        camera.position.z = 5;
-        
-        const animate = () => {
-            requestAnimationFrame(animate);
-            renderer.render(scene, camera);
-        };
-        
-        animate();
-    </script>
+    <div class="hero">
+        <div class="sub-container9">
+            <h2 style="text-align: center; font-size: 30px; color: black;">Intersección Muños y Nanne</h2>
+            
+        </div>
+   
+        <div class="sub-container10">
+            <img src="/img/122222.jpg" width="600" height="300">
+        </div>
+           
+    </div>
+    
+
+
+
 
 
 <br>
