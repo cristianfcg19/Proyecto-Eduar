@@ -37,6 +37,28 @@
     width: 60%;
 }
 
+.sub-container4{
+    margin: 2%;
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.sub-container3{
+
+    width: 60%;
+}
+
+.sub-container5{
+    margin: 2%;
+    width: 40%;
+    text-align: center;
+}
+.sub-container6{
+
+    width: 60%;
+}
+
 /* Estilos para el botón */
 .btn {
     margin-top: 15px;
